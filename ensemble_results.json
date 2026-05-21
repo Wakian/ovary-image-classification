@@ -1,0 +1,120 @@
+{
+  "selected_models": [
+    {
+      "name": "M2_v6",
+      "path": "modelos_salvos/membro2/membro2_V6_ResNeXt-50_256px.joblib",
+      "img_size": 256,
+      "f1": 0.888,
+      "batch_size": 16
+    },
+    {
+      "name": "M3_v5",
+      "path": "modelos_salvos/membro3/membro3_V5_DN-121_blocks3+4.joblib",
+      "img_size": 256,
+      "f1": 0.914,
+      "batch_size": 16
+    },
+    {
+      "name": "M3_v6",
+      "path": "modelos_salvos/membro3/membro3_V6_DN-169_256px.joblib",
+      "img_size": 256,
+      "f1": 0.902,
+      "batch_size": 16
+    },
+    {
+      "name": "M4_v2",
+      "path": "modelos_salvos/membro4/membro4_V2_ConvNeXt-T_frozen.joblib",
+      "img_size": 256,
+      "f1": 0.851,
+      "batch_size": 16
+    },
+    {
+      "name": "M4_v5",
+      "path": "modelos_salvos/membro4/membro4_V5_ConvNeXt-T_2stages.joblib",
+      "img_size": 256,
+      "f1": 0.902,
+      "batch_size": 16
+    }
+  ],
+  "individual_results": [
+    {
+      "name": "M2_v6",
+      "accuracy": 0.9016393442622951,
+      "f1_macro": 0.8884920634920634,
+      "precision": 0.9260752688172044,
+      "recall": 0.8635057471264368,
+      "inference_s": 6.5
+    },
+    {
+      "name": "M3_v5",
+      "accuracy": 0.9344262295081968,
+      "f1_macro": 0.901430917194464,
+      "precision": 0.9142200328407225,
+      "recall": 0.8912835249042147,
+      "inference_s": 5.6
+    },
+    {
+      "name": "M3_v6",
+      "accuracy": 0.9344262295081968,
+      "f1_macro": 0.9024952919020716,
+      "precision": 0.9162698412698412,
+      "recall": 0.8912835249042147,
+      "inference_s": 6.4
+    },
+    {
+      "name": "M4_v2",
+      "accuracy": 0.8688524590163934,
+      "f1_macro": 0.8512315270935961,
+      "precision": 0.8645648604269294,
+      "recall": 0.8405172413793104,
+      "inference_s": 6.4
+    },
+    {
+      "name": "M4_v5",
+      "accuracy": 0.9344262295081968,
+      "f1_macro": 0.9018207282913165,
+      "precision": 0.9153439153439153,
+      "recall": 0.8936781609195402,
+      "inference_s": 5.9
+    }
+  ],
+  "ensemble_results": [
+    {
+      "name": "Ensemble — média simples",
+      "accuracy": 0.9508196721311475,
+      "f1_macro": 0.9269251560273233,
+      "precision": 0.9629629629629629,
+      "recall": 0.9051724137931035
+    },
+    {
+      "name": "Ensemble — média ponderada (pesos: [0.199, 0.205, 0.202, 0.191, 0.202])",
+      "accuracy": 0.9508196721311475,
+      "f1_macro": 0.9269251560273233,
+      "precision": 0.9629629629629629,
+      "recall": 0.9051724137931035
+    },
+    {
+      "name": "Ensemble — voto majoritário",
+      "accuracy": 0.9508196721311475,
+      "f1_macro": 0.9141520467836258,
+      "precision": 0.9267399267399267,
+      "recall": 0.9051724137931035
+    }
+  ],
+  "best_individual": {
+    "name": "M3_v6",
+    "accuracy": 0.9344262295081968,
+    "f1_macro": 0.9024952919020716,
+    "precision": 0.9162698412698412,
+    "recall": 0.8912835249042147,
+    "inference_s": 6.4
+  },
+  "best_ensemble": {
+    "name": "Ensemble — média simples",
+    "accuracy": 0.9508196721311475,
+    "f1_macro": 0.9269251560273233,
+    "precision": 0.9629629629629629,
+    "recall": 0.9051724137931035
+  },
+  "delta_f1": 0.0244
+}
